@@ -1,0 +1,204 @@
+h1{
+    text-align: center;
+}
+h4{
+    color: rgb(39, 37, 37);
+    font-size: 1em;
+}
+a{
+    text-decoration: none;
+    background-color: rgb(0, 183, 255);
+    border-width: 5px;
+}
+footer{
+    background-color: black;
+    color:#ccc;
+    font-size: 1.5em;
+    justify-items: center;
+}
+.fondo{
+    background-color: rgb(39, 37, 37);
+}
+.textoBody{
+    font-size: 1em;
+    color:rgb(208, 13, 226);
+    text-align: center;
+}
+.miTexto{
+    font-size: 3em;
+    color:rgb(208, 13, 226);
+    text-align: center;
+}
+/* ************************************************* */
+/*  styles card */
+.cardPeliculaImagen{
+    width: 300px;
+    height: 300px;
+}
+.cards{
+    border: 2px solid black;
+    width: fit-content;
+    padding: 0px 1em 1em 1em;
+    border-radius: 5%;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    align-items: center;
+}
+.cards:hover{
+    background-color:rgb(0, 183, 255)  ;
+}
+#cards-container{
+    background-color: #ccc;
+    width: 85vw;
+    margin: auto;
+    margin-top: 1.5 em;
+    border: 2px solid black;
+    border-radius: 1%;
+    padding: 2em;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around; 
+}
+/* ************************************************ */
+/* styles page form */
+form {
+    color:#ccc;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  label {
+    color: #ccc;
+    display: block;
+    margin-top: 10px;
+  }
+  input, textarea, select, button {
+    color:black;
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+  }
+  button {
+    background-color: rgb(0, 183, 255);  
+    margin-top: 15px;
+    cursor: pointer;
+  }
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  button:hover {
+    background-color: #ffffff;
+    color: #222;
+}
+
+
+  /* ****************************************** */
+  /* styles page historia del cine */
+
+.bodyHistoria {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(39, 37, 37);
+    color: #ffffff;
+    line-height: 1.6;
+}
+.headerHistoria {
+    text-align: center;
+    padding: 20px;
+    background: #222;
+    color:#ccc;
+}
+.containerHistoria {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+.sectionHistoria {
+    margin-bottom: 40px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+}
+.timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.timeline-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.timeline-item img {
+    width: 100px;
+    height: auto;
+    border-radius: 8px;
+}
+.reveal {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+.reveal.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* *********************************** */
+/* styles para la page About Us */
+
+.bodySobre {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(39, 37, 37);
+    color:#ccc;
+    line-height: 1.6;
+}
+.headerSobre {
+    text-align: center;
+    padding: 20px;
+    background: #222;
+    color: #ccc;
+}
+.containerSobre {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+.sectionSobre {
+    margin-bottom: 40px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+}
+.quotes {
+    margin: 20px 0;
+}
+.quote {
+    font-style: italic;
+    margin-bottom: 20px;
+}
+.quote-author {
+    text-align: right;
+    font-weight: bold;
+    margin-top: 5px;
+}
+.formSobre {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: rgba(255, 255, 255, 0.05);
+    padding: 20px;
+    border-radius: 8px;
+}
+button:hover {
+    background-color: #ffffff;
+    color: #222;
+}
+
