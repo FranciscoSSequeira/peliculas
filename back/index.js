@@ -2,7 +2,7 @@ const server = require(`./src/server`);
 const router = require(`./src/routes/movies`);
 const dbConfig = require(`./src/config/DBconfig`);
 
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 server.use(router);
 
